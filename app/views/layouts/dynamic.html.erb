@@ -10,7 +10,7 @@
 
   <ng:view></ng:view>
 
-  <script src="/javascripts/angular.min.js" ng:autobind></script>
-  <%= javascript_include_tag "application" -%>
+  <script src="<%= asset_path 'application.js' %>" ng:autobind></script>
+
 </body>
 </html>

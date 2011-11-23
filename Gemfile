@@ -20,6 +20,7 @@ group :development, :test do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'jasmine'
   gem 'jasminerice'
+  gem 'angular-rails'
 end
 
 group :test do
